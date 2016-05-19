@@ -1,5 +1,5 @@
 {
-    "name": "bedezign/yii2-audit",
+    "name": "cesarmartin/yii2-audit",
     "description": "Yii2 Audit records and displays web/cli requests, database changes, php/js errors and associated data.",
     "keywords": ["yii2", "audit", "trail", "logging"],
     "type": "yii2-extension",
@@ -21,6 +21,12 @@
             "email": "marchollander@gmail.com"
         }
     ],
+    "repositories": [  
+        {  
+            "type": "vcs",  
+            "url": "https://github.com/osteel/guzzle"  
+        }  
+    ], 
     "require": {
         "php": ">=5.4.0",
         "ext-bcmath": "*",
